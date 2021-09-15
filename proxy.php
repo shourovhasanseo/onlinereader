@@ -1,7 +1,7 @@
 <?php
 	if (isset($_POST['text']))
 	{
-		$ch = curl_init("http://api.voicerss.org/?key=1234567890QWERTY&hl=en-us&src=Hello, world!");
+		$ch = curl_init("http://api.voicerss.org/?key=fd7d200b97db450694d4967d69b2060f=en-us&src=Hello, world!");
 		
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_BINARYTRANSFER, 1);
